@@ -313,7 +313,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hello !
+  m_Text: Hello Animation 1!
 --- !u!222 &283584154
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -348,13 +348,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 316489787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f5e7a7dec35fab48a3270b2ba034c7c, type: 3}
+  m_Script: {fileID: 11500000, guid: f8137a6351903b440aa909024a80f126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 283584152}
-  clip0: {fileID: 7400000, guid: 0270b493453a113459cd3afe7e788a0b, type: 2}
-  clip1: {fileID: 7400000, guid: 5e33fce301467c248bb5791325687d16, type: 2}
-  clip0Weight: 0.5
+  clip: {fileID: 7400000, guid: c3ed3e4b5db88f149881a3fb0a5e28c4, type: 2}
 --- !u!4 &316489789
 Transform:
   m_ObjectHideFlags: 0
