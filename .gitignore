@@ -6,6 +6,8 @@ SimpleAnimation.sln
 SimpleAnimation.csproj
 SimpleAnimation.Editor.csproj
 .vs
+.vscode
 *.csproj
 Logs/
+UserSettings/
 obj/
