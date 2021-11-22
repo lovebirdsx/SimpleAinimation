@@ -10,6 +10,7 @@ public class SimplePlay : MonoBehaviour {
     AnimationPlayableOutput output;
 
     void Start() {
+        /*
         // graph相当于动画播放的上下文,要播放动画,必须要有一个该对象
         // 构造一个动画播放器,必须包含Graph和Output两个对象
         // 且这两个对象是一一对应的关系,也就是说,1个Graph只能有1个Output
@@ -24,6 +25,10 @@ public class SimplePlay : MonoBehaviour {
         var clipPlayable = AnimationClipPlayable.Create(graph, clip);
         output.SetSourcePlayable(clipPlayable);
         graph.Play();
+        */
+
+        // 更简单的写法
+        AnimationPlayableUtilities.PlayClip(animator, clip, out graph);
     }
 
     void OnDestroy() {
